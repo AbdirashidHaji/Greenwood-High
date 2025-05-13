@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - Greenwood High School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css" id="darkModeStyle" disabled>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/softnova.png" alt="Greenwood High School Logo" class="logo">
+                <div>
+                    <h1>Greenwood High School</h1>
+                    <p>Excellence in Education</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="gallery.html" class="active">Gallery</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="darkModeToggle" class="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>School Gallery</h1>
+            <p>Capturing moments of learning, growth and achievement</p>
+        </div>
+    </section>
+
+    <section class="gallery-section">
+        <div class="container">
+            <div class="gallery-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="academic">Academic</button>
+                <button class="filter-btn" data-filter="sports">Sports</button>
+                <button class="filter-btn" data-filter="events">Events</button>
+                <button class="filter-btn" data-filter="facilities">Facilities</button>
+            </div>
+
+            <div class="gallery-grid">
+                <a href="images/softnova.png" class="gallery-item academic" data-sub-html="<h4>Science Class</h4><p>Students conducting experiments in the chemistry lab</p>">
+                    <img src="images/softnova.png" alt="Science Class">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Science Class</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item sports" data-sub-html="<h4>Football Match</h4><p>Annual inter-house football competition</p>">
+                    <img src="images/softnova.png" alt="Football Match">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Football Match</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item events" data-sub-html="<h4>Prize Giving Day</h4><p>Students receiving awards for academic excellence</p>">
+                    <img src="images/softnova.png" alt="Prize Giving Day">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Prize Giving Day</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item facilities" data-sub-html="<h4>School Library</h4><p>Our well-stocked library with reading areas</p>">
+                    <img src="images/softnova.png" alt="School Library">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>School Library</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item academic" data-sub-html="<h4>Computer Class</h4><p>Students learning programming in the computer lab</p>">
+                    <img src="images/softnova.png" alt="Computer Class">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Computer Class</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item sports" data-sub-html="<h4>Athletics</h4><p>Students competing in track events during sports day</p>">
+                    <img src="images/softnova.png" alt="Athletics">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Athletics</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item events" data-sub-html="<h4>Music Festival</h4><p>School choir performing at the national music festival</p>">
+                    <img src="images/softnova.png" alt="Music Festival">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Music Festival</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item facilities" data-sub-html="<h4>Dining Hall</h4><p>Students having meals in our spacious dining hall</p>">
+                    <img src="images/softnova.png" alt="Dining Hall">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Dining Hall</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item academic" data-sub-html="<h4>Geography Field Trip</h4><p>Students studying rock formations during a field trip</p>">
+                    <img src="images/softnova.png" alt="Geography Field Trip">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Field Trip</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item sports" data-sub-html="<h4>Basketball</h4><p>School basketball team in action</p>">
+                    <img src="images/softnova.png" alt="Basketball">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Basketball</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item events" data-sub-html="<h4>Career Day</h4><p>Professionals interacting with students during career day</p>">
+                    <img src="images/softnova.png" alt="Career Day">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Career Day</p>
+                    </div>
+                </a>
+                <a href="images/softnova.png" class="gallery-item facilities" data-sub-html="<h4>Dormitories</h4><p>Clean and comfortable student dormitories</p>">
+                    <img src="images/softnova.png" alt="Dormitories">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-search-plus"></i>
+                        <p>Dormitories</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="video-gallery">
+        <div class="container">
+            <h2>Video Gallery</h2>
+            <div class="video-grid">
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/example1" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>School Documentary 2023</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/example2" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Annual Music Festival Performance</h3>
+                </div>
+                <div class="video-card">
+                    <div class="video-container">
+                        <iframe src="https://www.youtube.com/embed/example3" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                    <h3>Science Fair Highlights</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About Greenwood</h3>
+                    <p>Greenwood High School is committed to providing quality education that empowers students to become responsible citizens and future leaders.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="departments.html">Departments</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> P.O Box 12345, Nairobi, Kenya</p>
+                    <p><i class="fas fa-phone"></i> +254 712 345 678</p>
+                    <p><i class="fas fa-envelope"></i> info@greenwoodhigh.ac.ke</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Greenwood High School. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script>
+        // Gallery filter functionality
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+        
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterBtns.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                const filter = btn.getAttribute('data-filter');
+                
+                // Show/hide gallery items based on filter
+                galleryItems.forEach(item => {
+                    if (filter === 'all' || item.classList.contains(filter)) {
+                        item.style.display = 'block';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+        
+        // Initialize lightGallery
+        lightGallery(document.querySelector('.gallery-grid'), {
+            selector: '.gallery-item',
+            download: false,
+            counter: false
+        });
+    </script>
+</body>
+</html>

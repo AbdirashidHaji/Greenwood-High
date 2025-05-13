@@ -1,0 +1,165 @@
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode header {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .logo-container h1 {
+    color: #e0e0e0;
+}
+
+.dark-mode .logo-container p {
+    color: #9e9e9e;
+}
+
+.dark-mode nav ul li a {
+    color: #e0e0e0;
+}
+
+.dark-mode nav ul li a.active {
+    color: var(--secondary-color);
+}
+
+.dark-mode .dark-mode-toggle {
+    color: #e0e0e0;
+}
+
+.dark-mode .link-card,
+.dark-mode .event-card,
+.dark-mode .value-card,
+.dark-mode .facility-card,
+.dark-mode .staff-card,
+.dark-mode .subject-card,
+.dark-mode .activity-card,
+.dark-mode .requirement-card,
+.dark-mode .download-card,
+.dark-mode .scholarship-card,
+.dark-mode .faq-item,
+.dark-mode .announcement-card,
+.dark-mode .department-card,
+.dark-mode .fee-notes {
+    background-color: #1e1e1e;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .link-card h3,
+.dark-mode .event-details h3,
+.dark-mode .value-card h3,
+.dark-mode .facility-card h3,
+.dark-mode .staff-card h3,
+.dark-mode .subject-card h3,
+.dark-mode .department-card h3,
+.dark-mode .requirement-card h3,
+.dark-mode .download-card h3,
+.dark-mode .scholarship-card h3,
+.dark-mode .faq-question {
+    color: #e0e0e0;
+}
+
+.dark-mode .link-card p,
+.dark-mode .event-details p,
+.dark-mode .value-card p,
+.dark-mode .facility-card p,
+.dark-mode .staff-card p,
+.dark-mode .subject-card p,
+.dark-mode .department-card p,
+.dark-mode .requirement-card p,
+.dark-mode .download-card p,
+.dark-mode .scholarship-card p,
+.dark-mode .faq-answer p {
+    color: #9e9e9e;
+}
+
+.dark-mode .section-title h2,
+.dark-mode .department-content h2,
+.dark-mode .co-curricular h2,
+.dark-mode .admissions-process h2,
+.dark-mode .requirements-section h2,
+.dark-mode .fee-structure h2,
+.dark-mode .download-section h2,
+.dark-mode .scholarships h2,
+.dark-mode .faq-section h2,
+.dark-mode .gallery-section h2,
+.dark-mode .video-gallery h2,
+.dark-mode .newsletter-section h2,
+.dark-mode .contact-info h2,
+.dark-mode .contact-form h2,
+.dark-mode .map-section h2,
+.dark-mode .contact-departments h2 {
+    color: #e0e0e0;
+}
+
+.dark-mode .section-title p,
+.dark-mode .department-content p,
+.dark-mode .co-curricular p,
+.dark-mode .scholarships p,
+.dark-mode .newsletter-section p,
+.dark-mode .contact-info p {
+    color: #9e9e9e;
+}
+
+.dark-mode .announcement-content h2,
+.dark-mode .announcement-meta {
+    color: #e0e0e0;
+}
+
+.dark-mode table {
+    color: #e0e0e0;
+}
+
+.dark-mode th {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+.dark-mode tr:nth-child(even) {
+    background-color: #2d2d2d;
+}
+
+.dark-mode tr:hover {
+    background-color: rgba(52, 152, 219, 0.2);
+}
+
+.dark-mode .form-group label {
+    color: #e0e0e0;
+}
+
+.dark-mode .form-group input,
+.dark-mode .form-group select,
+.dark-mode .form-group textarea {
+    background-color: #2d2d2d;
+    border-color: #3d3d3d;
+    color: #e0e0e0;
+}
+
+.dark-mode .form-group input:focus,
+.dark-mode .form-group select:focus,
+.dark-mode .form-group textarea:focus {
+    border-color: var(--secondary-color);
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.3);
+}
+
+.dark-mode footer {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .footer-col h3 {
+    color: #e0e0e0;
+}
+
+.dark-mode .footer-col ul li a {
+    color: #9e9e9e;
+}
+
+.dark-mode .footer-col ul li a:hover {
+    color: #e0e0e0;
+}
+
+.dark-mode .footer-bottom {
+    border-top-color: #2d2d2d;
+}

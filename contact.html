@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Greenwood High School</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css" id="darkModeStyle" disabled>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="images/softnova.png" alt="Greenwood High School Logo" class="logo">
+                <div>
+                    <h1>Greenwood High School</h1>
+                    <p>Excellence in Education</p>
+                </div>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="departments.html">Departments</a></li>
+                    <li><a href="admissions.html">Admissions</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="announcements.html">Announcements</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <button id="darkModeToggle" class="dark-mode-toggle">
+                <i class="fas fa-moon"></i>
+            </button>
+            <div class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-header">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>We'd love to hear from you</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>We welcome your questions, comments and feedback. Our team is always ready to assist you with any inquiries you may have.</p>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Address</h3>
+                            <p>Greenwood High School<br>
+                            P.O Box 12345-00100<br>
+                            Nairobi, Kenya</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-phone"></i>
+                        <div>
+                            <h3>Phone</h3>
+                            <p>Main Office: +254 712 345 678<br>
+                            Admissions: +254 723 456 789<br>
+                            Fax: +254 20 123 4567</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>General Inquiries: info@greenwoodhigh.ac.ke<br>
+                            Admissions: admissions@greenwoodhigh.ac.ke<br>
+                            Careers: careers@greenwoodhigh.ac.ke</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Office Hours</h3>
+                            <p>Monday - Friday: 8:00 AM - 5:00 PM<br>
+                            Saturday: 9:00 AM - 1:00 PM<br>
+                            Sunday: Closed</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-media">
+                        <h3>Follow Us</h3>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <select id="subject" name="subject" required>
+                                <option value="">Select a subject</option>
+                                <option value="admissions">Admissions</option>
+                                <option value="academics">Academic Programs</option>
+                                <option value="fees">Fees Payment</option>
+                                <option value="feedback">Feedback</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section">
+        <div class="container">
+            <h2>Our Location</h2>
+            <div class="map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.808559538334!2d36.82154831475399!3d-1.2883858359798144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d664f5f7e7%3A0x7e3b2d6e7c1f0b5e!2sNairobi%20City%20Centre!5e0!3m2!1sen!2ske!4v1620000000000!5m2!1sen!2ske" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-departments">
+        <div class="container">
+            <h2>Contact Specific Departments</h2>
+            <div class="departments-grid">
+                <div class="department-card">
+                    <i class="fas fa-user-graduate"></i>
+                    <h3>Admissions Office</h3>
+                    <p>For inquiries about joining Greenwood High School</p>
+                    <p><i class="fas fa-phone"></i> +254 723 456 789</p>
+                    <p><i class="fas fa-envelope"></i> admissions@greenwoodhigh.ac.ke</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-book"></i>
+                    <h3>Academic Office</h3>
+                    <p>For academic programs and curriculum inquiries</p>
+                    <p><i class="fas fa-phone"></i> +254 724 567 890</p>
+                    <p><i class="fas fa-envelope"></i> academics@greenwoodhigh.ac.ke</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <h3>Finance Office</h3>
+                    <p>For fee payments and financial matters</p>
+                    <p><i class="fas fa-phone"></i> +254 725 678 901</p>
+                    <p><i class="fas fa-envelope"></i> finance@greenwoodhigh.ac.ke</p>
+                </div>
+                <div class="department-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Human Resources</h3>
+                    <p>For employment and career opportunities</p>
+                    <p><i class="fas fa-phone"></i> +254 726 789 012</p>
+                    <p><i class="fas fa-envelope"></i> hr@greenwoodhigh.ac.ke</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>About Greenwood</h3>
+                    <p>Greenwood High School is committed to providing quality education that empowers students to become responsible citizens and future leaders.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="departments.html">Departments</a></li>
+                        <li><a href="admissions.html">Admissions</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> P.O Box 12345, Nairobi, Kenya</p>
+                    <p><i class="fas fa-phone"></i> +254 712 345 678</p>
+                    <p><i class="fas fa-envelope"></i> info@greenwoodhigh.ac.ke</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Greenwood High School. All Rights Reserved.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/dark-mode.js"></script>
+    <script>
+        // Contact form submission
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const subject = document.getElementById('subject').value;
+            const message = document.getElementById('message').value;
+            
+            // Here you would typically send the data to a server
+            // For this example, we'll just show an alert
+            alert(`Thank you, ${name}! Your message about "${subject}" has been received. We'll contact you at ${email} soon.`);
+            
+            // Reset the form
+            this.reset();
+        });
+    </script>
+</body>
+</html>
